@@ -1,3 +1,5 @@
+package BancoFatec;
+
 public class Funcionario {
     protected String nome;
     protected String cpf;
@@ -15,6 +17,6 @@ public class Funcionario {
 
     @Override
     public String toString(){
-        return "Funcionario [Nome= "+nome+", CPF = "+cpf+", Salário = "+salario;
+        return "BancoFatec.Funcionario [Nome= "+nome+", CPF = "+cpf+", Salário = "+salario;
     }
 }

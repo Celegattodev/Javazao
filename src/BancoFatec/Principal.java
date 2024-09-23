@@ -1,3 +1,5 @@
+package BancoFatec;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -74,7 +76,7 @@ public class Principal {
 				entrada.nextLine(); // Consumir o caractere de nova linha
 				Conta c2 = new Conta(new Cliente(nome, celular), saldo);
 				lista.add(c2);
-				System.out.println("Conta criada com sucesso!");
+				System.out.println("BancoFatec.Conta criada com sucesso!");
 				break;
 			}
 			case 6:{
@@ -84,7 +86,7 @@ public class Principal {
 				// verifica se número da conta é válido
 				if ((nconta<0)||(nconta>lista.size())) break;
 				c=lista.get(nconta-1);
-				System.out.println(" Conta de acesso: "+ c);
+				System.out.println(" BancoFatec.Conta de acesso: "+ c);
 				break;
 			}
 			case 0: {

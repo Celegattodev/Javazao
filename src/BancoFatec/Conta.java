@@ -1,3 +1,5 @@
+package BancoFatec;
+
 public class Conta {
 	private static int totalContas = 0;
 	private Cliente titular;
@@ -26,7 +28,7 @@ public class Conta {
 	}
 	@Override
 	public String toString() {
-		return "Conta [titular=" + titular + ", nConta=" + nConta + ", saldo=" + saldo + "]";
+		return "BancoFatec.Conta [titular=" + titular + ", nConta=" + nConta + ", saldo=" + saldo + "]";
 	}
 	
 	public boolean depositar(double valor) {

@@ -1,3 +1,5 @@
+package BancoFatec;
+
 public class Cliente {
 	private String nome;
 	private String celular;
@@ -20,7 +22,7 @@ public class Cliente {
 	}
 	@Override
 	public String toString() {
-		return "Cliente [nome=" + nome + ", celular=" + celular + "]";
+		return "BancoFatec.Cliente [nome=" + nome + ", celular=" + celular + "]";
 	}
 
 }

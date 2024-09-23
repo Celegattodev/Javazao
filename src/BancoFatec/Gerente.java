@@ -1,4 +1,6 @@
-public class Gerente extends Funcionario{
+package BancoFatec;
+
+public class Gerente extends Funcionario {
 
     private int senha;
     private int nFuncionarioGerenciados;
@@ -27,7 +29,7 @@ public class Gerente extends Funcionario{
 
     @Override
     public String toString() {
-        return super.toString()+"Gerente [nFuncionariosGerenciados = "+nFuncionarioGerenciados;
+        return super.toString()+"BancoFatec.Gerente [nFuncionariosGerenciados = "+nFuncionarioGerenciados;
     }
 
     @Override
