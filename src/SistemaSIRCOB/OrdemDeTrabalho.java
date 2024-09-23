@@ -30,7 +30,7 @@ public class OrdemDeTrabalho {
                 '}';
     }
 //CONSTRUTOR
-    public OrdemDeTrabalho(Buraco buraco, int idEquipeReparo, int tamanhoEquipe, String equipamentos, double horasReparo, Status statusReparo, double qtdMaterial, double custo) {
+    public OrdemDeTrabalho(Buraco buraco, int idEquipeReparo, int tamanhoEquipe, String equipamentos, double horasReparo, Status statusReparo, double qtdMaterial) {
         this.buraco = buraco;
         this.idEquipeReparo = idEquipeReparo;
         this.tamanhoEquipe = tamanhoEquipe;
@@ -114,6 +114,7 @@ public class OrdemDeTrabalho {
         double custoEquipamento = 250;
 
         this.custo = Double.parseDouble((horasReparo * custoHora +(tamanhoEquipe * custoPessoa)+(qtdMaterial * custoMaterial)+equipamentos));
+        return custoHora;
     }
 }
 
